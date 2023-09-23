@@ -5,10 +5,13 @@ import { MoviesService } from '../service/movies.service';
 export class MoviesController {
   constructor(private readonly moviesService: MoviesService) {}
 
-  @Get()
+  @Get('/popular')
   getPopularMovies() {
-    const result = this.moviesService.getPopularMovies();
+    return this.moviesService.getPopularMovies();
+  }
 
-    return result;
+  @Get('/toprated')
+  getTopRatedMovies() {
+    return this.moviesService.getTopRatedMovies();
   }
 }

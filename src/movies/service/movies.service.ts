@@ -8,4 +8,8 @@ export class MoviesService {
   getPopularMovies() {
     return this.moviesApiService.getPopularMovies();
   }
+
+  getTopRatedMovies() {
+    return this.moviesApiService.getTopRatedMovies();
+  }
 }
