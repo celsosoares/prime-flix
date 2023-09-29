@@ -10,7 +10,7 @@ export class MoviesController {
     return this.moviesService.getPopularMovies();
   }
 
-  @Get('/toprated')
+  @Get('/top_rated')
   getTopRatedMovies() {
     return this.moviesService.getTopRatedMovies();
   }
