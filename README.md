@@ -26,6 +26,14 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## About project
+This project consists of consuming a public API for films and series with the aim of building a platform that displays series and films to the user, in addition to the details of each item.
+
+## Running project with docker
+```bash
+$ docker-compose up
+```
+
 ## Installation
 
 ```bash
